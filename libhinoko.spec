@@ -5,13 +5,13 @@
 Summary:	GObject introspection library for isochronous communication with devices connected to IEEE 1394 bus
 Summary(pl.UTF-8):	Biblioteka GObject introspection do komunikacji izochronicznej z urządzeniami podłączonymi do szyny IEEE 1394
 Name:		libhinoko
-Version:	1.0.2
+Version:	1.0.3
 Release:	1
 License:	LGPL v2.1+
 Group:		Libraries
 #Source0Download: https://github.com/alsa-project/libhinoko/tags
 Source0:	https://www.kernel.org/pub/linux/libs/ieee1394/%{name}-%{version}.tar.xz
-# Source0-md5:	65c0d75f0fe3bbf2dbde0a188986caec
+# Source0-md5:	b9f3406fadaa9feb271d5fc9ad980ddd
 URL:		https://alsa-project.github.io/gobject-introspection-docs/hinoko/
 BuildRequires:	glib2-devel >= 1:2.44.0
 BuildRequires:	gobject-introspection-devel >= 1.32.1
